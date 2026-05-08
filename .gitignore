@@ -1,0 +1,15 @@
+# keep this repo for durable, sanitized operations history only
+*.tmp
+*.bak
+*.swp
+.DS_Store
+node_modules/
+.env
+.env.*
+*secret*
+*token*
+*credential*
+openclaw.json
+openclaw.json.*
+media/
+cache/
