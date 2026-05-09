@@ -1,5 +1,17 @@
 {
-  "active_tasks": [],
-  "updated_at": "2026-05-07T06:44:09Z",
+  "active_tasks": [
+    {
+      "task_id": "task-social-tob-v0-001",
+      "type": "finite",
+      "project_id": "proj-social-tob-v0-20260509-025429",
+      "task_title": "当前主账号/目标链接/采集环境校准与小样本只读采集计划",
+      "assigned_to": "collector-worker",
+      "room_id": "!0wJA2iqVCZYmAft8C9:matrix-local.hiclaw.io:18080",
+      "project_room_id": "!0wJA2iqVCZYmAft8C9:matrix-local.hiclaw.io:18080",
+      "status": "assigned",
+      "assigned_at": "2026-05-09T02:55:16Z"
+    }
+  ],
+  "updated_at": "2026-05-09T02:55:16Z",
   "admin_dm_room_id": "!mNmEzo8pNoO6ZNCAP9:matrix-local.hiclaw.io:18080"
 }
