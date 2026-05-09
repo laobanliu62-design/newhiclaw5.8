@@ -1,6 +1,22 @@
 {
   "workers": [
     {
+      "name": "feedback-worker",
+      "phase": "Running",
+      "model": "gpt-5.5",
+      "containerState": "running",
+      "matrixUserID": "@feedback-worker:matrix-local.hiclaw.io:18080",
+      "roomID": "!5uIwnq4l686Zn4BXnm:matrix-local.hiclaw.io:18080"
+    },
+    {
+      "name": "reviewer-worker",
+      "phase": "Running",
+      "model": "gpt-5.5",
+      "containerState": "running",
+      "matrixUserID": "@reviewer-worker:matrix-local.hiclaw.io:18080",
+      "roomID": "!z4Hdwh8BhnKjl043ok:matrix-local.hiclaw.io:18080"
+    },
+    {
       "name": "collector-worker",
       "phase": "Running",
       "model": "gpt-5.5",
@@ -23,22 +39,6 @@
       "containerState": "running",
       "matrixUserID": "@landing-worker:matrix-local.hiclaw.io:18080",
       "roomID": "!OdKFSK8oKo3lkinXuM:matrix-local.hiclaw.io:18080"
-    },
-    {
-      "name": "feedback-worker",
-      "phase": "Running",
-      "model": "gpt-5.5",
-      "containerState": "running",
-      "matrixUserID": "@feedback-worker:matrix-local.hiclaw.io:18080",
-      "roomID": "!5uIwnq4l686Zn4BXnm:matrix-local.hiclaw.io:18080"
-    },
-    {
-      "name": "reviewer-worker",
-      "phase": "Running",
-      "model": "gpt-5.5",
-      "containerState": "running",
-      "matrixUserID": "@reviewer-worker:matrix-local.hiclaw.io:18080",
-      "roomID": "!z4Hdwh8BhnKjl043ok:matrix-local.hiclaw.io:18080"
     }
   ],
   "total": 5
