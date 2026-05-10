@@ -1,14 +1,6 @@
 {
   "workers": [
     {
-      "name": "feedback-worker",
-      "phase": "Running",
-      "model": "gpt-5.5",
-      "containerState": "running",
-      "matrixUserID": "@feedback-worker:matrix-local.hiclaw.io:18080",
-      "roomID": "!5uIwnq4l686Zn4BXnm:matrix-local.hiclaw.io:18080"
-    },
-    {
       "name": "landing-worker",
       "phase": "Running",
       "model": "gpt-5.5",
@@ -39,6 +31,14 @@
       "containerState": "running",
       "matrixUserID": "@executor-worker:matrix-local.hiclaw.io:18080",
       "roomID": "!QC7WfRDoA2Y4cmG8iV:matrix-local.hiclaw.io:18080"
+    },
+    {
+      "name": "feedback-worker",
+      "phase": "Running",
+      "model": "gpt-5.5",
+      "containerState": "running",
+      "matrixUserID": "@feedback-worker:matrix-local.hiclaw.io:18080",
+      "roomID": "!5uIwnq4l686Zn4BXnm:matrix-local.hiclaw.io:18080"
     }
   ],
   "total": 5
