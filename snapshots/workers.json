@@ -2,7 +2,7 @@
   "workers": [
     {
       "name": "collector-worker",
-      "phase": "Running",
+      "phase": "Sleeping",
       "model": "gpt-5.5",
       "containerState": "running",
       "matrixUserID": "@collector-worker:matrix-local.hiclaw.io:18080",
@@ -10,7 +10,7 @@
     },
     {
       "name": "executor-worker",
-      "phase": "Running",
+      "phase": "Sleeping",
       "model": "gpt-5.5",
       "containerState": "running",
       "matrixUserID": "@executor-worker:matrix-local.hiclaw.io:18080",
@@ -18,7 +18,7 @@
     },
     {
       "name": "feedback-worker",
-      "phase": "Running",
+      "phase": "Sleeping",
       "model": "gpt-5.5",
       "containerState": "running",
       "matrixUserID": "@feedback-worker:matrix-local.hiclaw.io:18080",
@@ -26,7 +26,7 @@
     },
     {
       "name": "landing-worker",
-      "phase": "Running",
+      "phase": "Sleeping",
       "model": "gpt-5.5",
       "containerState": "running",
       "matrixUserID": "@landing-worker:matrix-local.hiclaw.io:18080",
@@ -34,7 +34,7 @@
     },
     {
       "name": "reviewer-worker",
-      "phase": "Running",
+      "phase": "Sleeping",
       "model": "gpt-5.5",
       "containerState": "running",
       "matrixUserID": "@reviewer-worker:matrix-local.hiclaw.io:18080",
